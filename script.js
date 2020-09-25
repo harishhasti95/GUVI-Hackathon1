@@ -1,12 +1,7 @@
-var div = document.createElement('div');
 
-var button = document.createElement('button');
-var play = document.createElement('a');
-play.setAttribute('href', 'game.html');
-
-button.appendChild(play);
-
-div.appendChild('button');
+var button = document.createElement('a');
+button.innerHTML = 'click here to start to start the game';
+button.setAttribute('href','game.html')
 
 
-document.body.appendChild(div);
+document.body.appendChild(button)
